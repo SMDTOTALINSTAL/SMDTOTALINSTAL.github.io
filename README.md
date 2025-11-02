@@ -1,1 +1,0 @@
-# SMDTOTALINSTAL.github.io

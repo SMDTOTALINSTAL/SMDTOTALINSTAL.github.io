@@ -1,21 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Arial', sans-serif; }
 
-body {
-    font-family: 'Arial', sans-serif;
-    color: #111;
-    background-color: #fff;
-}
-
-/* ---------- HEADER ---------- */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80') center/cover;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80') center/cover;
     height: 100vh;
     color: white;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,38 +15,33 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 5%;
-}
-
-.logo {
-    font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
+    padding: 1.5rem 5%;
 }
 
 .nav-links {
-    list-style: none;
     display: flex;
     gap: 1.5rem;
+    list-style: none;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
+}
+
+#lang-btn {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .hero-content {
+    text-align: center;
     margin-bottom: 8rem;
-}
-
-.hero-content h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.hero-content p {
-    margin-bottom: 2rem;
 }
 
 .btn {
@@ -67,7 +52,6 @@ nav {
     border-radius: 5px;
 }
 
-/* ---------- ABOUT ---------- */
 .about {
     background-color: #0b0b17;
     color: white;
@@ -75,17 +59,9 @@ nav {
     padding: 4rem 2rem;
 }
 
-.about p {
-    max-width: 700px;
-    margin: 1rem auto;
-    color: #ccc;
-}
-
-/* ---------- SERVICES ---------- */
 .services {
-    background: white;
-    text-align: center;
     padding: 4rem 2rem;
+    text-align: center;
 }
 
 .service-cards {
@@ -104,23 +80,9 @@ nav {
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
-.card img {
-    width: 60px;
-    margin-bottom: 1rem;
-}
-
-.card h3 {
-    margin-bottom: 0.5rem;
-}
-
-/* ---------- FOOTER ---------- */
 footer {
     background-color: #0b0b17;
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
-}
-
-.socials img {
-    margin: 0 0.5rem;
+    padding: 1rem;
 }

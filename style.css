@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #111;
+    background-color: #fff;
+}
+
+/* ---------- HEADER ---------- */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80') center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero-content {
+    margin-bottom: 8rem;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #0066ff;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ---------- ABOUT ---------- */
+.about {
+    background-color: #0b0b17;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 1rem auto;
+    color: #ccc;
+}
+
+/* ---------- SERVICES ---------- */
+.services {
+    background: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 280px;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #0b0b17;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.socials img {
+    margin: 0 0.5rem;
+}

@@ -9,55 +9,60 @@
 <body>
     <header class="hero">
         <nav>
-            <div class="logo">SMD TOTAL INSTAL LTD</div>
+            <div class="logo" data-lang="logo">SMD TOTAL INSTAL LTD</div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" data-lang="home">Acasă</a></li>
+                <li><a href="#" data-lang="contact">Contact</a></li>
             </ul>
+            <button id="lang-btn">EN</button>
         </nav>
         <div class="hero-content">
-            <h1>Experience the Power of Informed Investing</h1>
-            <p>Build a Strong Foundation for Your Financial Future Today</p>
-            <a href="#" class="btn">Contact Us</a>
+            <h1 data-lang="title">Experimentează puterea investițiilor informate</h1>
+            <p data-lang="subtitle">Construiește o bază solidă pentru viitorul tău financiar</p>
+            <a href="#" class="btn" data-lang="contactBtn">Contactează-ne</a>
         </div>
     </header>
 
     <section class="about">
-        <h2>Who Are We?</h2>
-        <p>
-            We are driven by a commitment to delivering exceptional investment outcomes.
-            We leverage a data-driven approach and a deep understanding of market dynamics
-            to generate sustainable returns for our clients.
+        <h2 data-lang="who">Cine suntem?</h2>
+        <p data-lang="aboutText">
+            Suntem dedicați să oferim rezultate investiționale excepționale. 
+            Folosim o abordare bazată pe date și o înțelegere profundă a pieței 
+            pentru a genera randamente sustenabile pentru clienții noștri.
         </p>
     </section>
 
     <section class="services">
-        <h2>Our Services</h2>
+        <h2 data-lang="services">Serviciile Noastre</h2>
         <div class="service-cards">
             <div class="card">
                 <img src="https://img.icons8.com/ios/100/000000/portfolio.png" alt="Portfolio">
-                <h3>Portfolio Management</h3>
-                <p>This core service involves the active management of a client’s investment portfolio.</p>
+                <h3 data-lang="portfolioTitle">Administrare Portofoliu</h3>
+                <p data-lang="portfolioText">
+                    Serviciul nostru principal implică gestionarea activă a portofoliului de investiții al clientului.
+                </p>
             </div>
             <div class="card">
                 <img src="https://img.icons8.com/ios/100/000000/advice.png" alt="Advisory">
-                <h3>Investment Advisory</h3>
-                <p>Providing guidance and recommendations to clients on investment decisions.</p>
+                <h3 data-lang="advisoryTitle">Consultanță în Investiții</h3>
+                <p data-lang="advisoryText">
+                    Oferim îndrumare și recomandări clienților în luarea deciziilor investiționale.
+                </p>
             </div>
             <div class="card">
                 <img src="https://img.icons8.com/ios/100/000000/money-bag.png" alt="Wealth">
-                <h3>Wealth Management</h3>
-                <p>Offering a comprehensive suite of services to high-net-worth individuals.</p>
+                <h3 data-lang="wealthTitle">Administrare a Averii</h3>
+                <p data-lang="wealthText">
+                    Oferim o gamă completă de servicii pentru persoane cu venituri ridicate.
+                </p>
             </div>
         </div>
     </section>
 
     <footer>
         <p>© 2025. All Rights Reserved.</p>
-        <div class="socials">
-            <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="fb"></a>
-            <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="linkedin"></a>
-        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
